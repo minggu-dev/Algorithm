@@ -1,4 +1,4 @@
-package programmers.Level2.PrefixPhoneNumber;
+package programmers.Level2;
 
 import java.util.Arrays;
 

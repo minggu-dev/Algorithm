@@ -1,4 +1,4 @@
-package programmers.Level2.SkillTree;
+package programmers.Level2;
 
 import java.util.ArrayList;
 import java.util.List;

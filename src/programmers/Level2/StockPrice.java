@@ -1,4 +1,4 @@
-package programmers.Level2.StockPrice;
+package programmers.Level2;
 
 public class StockPrice {
 	/**

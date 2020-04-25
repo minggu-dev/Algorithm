@@ -1,4 +1,4 @@
-package programmers.Level2.FindPrimeNumberLevel2;
+package programmers.Level2;
 
 import java.util.HashSet;
 import java.util.Set;
