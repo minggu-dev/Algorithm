@@ -27,7 +27,6 @@ public class JoyStick {
 	public int findCursor(LinkedList<Integer> list, int len) {
 		int min = Integer.MAX_VALUE;
 		int size = list.size();
-		//오른쪽부터
 		for(int i = 1; i < size - 1; i++) {
 			min = Math.min(min, list.get(size - i - 1) + (len - list.get((size - i) % size)) % len + Math.min(list.get(size - i - 1), (len - list.get((size - i) % size)) % len));
 		}
