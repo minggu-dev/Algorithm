@@ -8,7 +8,8 @@ public class FindGCDLCM {
 	 * @param m
 	 * @return
 	 */
-	public int[] solution(int n, int m) {
+	/*
+	 * public int[] solution(int n, int m) {
 		int[] answer = new int[2];
 		answer[1] = m * n;
 		int temp = 0;
@@ -21,5 +22,15 @@ public class FindGCDLCM {
 		answer[1] = answer[1] / n;
 		
 		return answer;
+	}
+	 * */
+	public int[] solution(int n, int m) {
+		int[] answer = new int[2];
+		answer[0] = findGCD(m,n);
+		answer[1] = m * n / answer[0];
+		return answer;
+	}
+	public int findGCD(int num1, int num2) {
+		return num1 % num2 == 0 ? num2 : findGCD(num2, num1 % num2);
 	}
 }
