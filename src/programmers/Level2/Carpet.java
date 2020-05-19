@@ -2,7 +2,8 @@ package programmers.Level2;
 
 public class Carpet {
 	/**
-	 * 
+	 * nxm크기의 사각형이 1x1크기의 타일로 구성되어있고 가장자리의 타일 갯수가 brown, 안쪽의 타일 갯수가 yellow라고할때 사각형의 가로, 세로 길이를 구하라
+	 * 출처 : https://programmers.co.kr/learn/challenges
 	 * @param brown
 	 * @param yellow
 	 * @return
@@ -25,12 +26,5 @@ public class Carpet {
 		}
 		
 		return answer;
-	}
-	public static void main(String[] args) {
-		Carpet c = new Carpet();
-		int [] result = c.solution(8, 1);
-		for(int i : result) {
-			System.out.println(i);
-		}
 	}
 }
